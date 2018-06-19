@@ -2,8 +2,9 @@
   "name": "favorite-beach-clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://myname.github.io/myapp",
+  "homepage": "https://sallytemple.github.io/Clicky-Game/",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4"
@@ -11,6 +12,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
