@@ -2,7 +2,7 @@
   "name": "favorite-beach-clicky-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://myname.github.io/Clicky-Game",
+  "homepage": "https://sallytemple.github.io/Clicky-Game/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
